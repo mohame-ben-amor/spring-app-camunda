@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.mba.projects.springprojforms001.ProcessScenarioTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.514 sec

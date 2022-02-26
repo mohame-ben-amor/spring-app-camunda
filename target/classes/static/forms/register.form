@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Name",
+      "type": "textfield",
+      "id": "Field_0mtddsh",
+      "key": "field_0nn0ji7",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "E-mail",
+      "type": "textfield",
+      "id": "Field_0djsqcr",
+      "key": "field_1s5wgus",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Age",
+      "type": "number",
+      "id": "Field_1vcuf55",
+      "key": "field_1fsui9q",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Male",
+          "value": "Male"
+        },
+        {
+          "label": "Female",
+          "value": "Female"
+        }
+      ],
+      "label": "Gender",
+      "type": "radio",
+      "id": "Field_0n692sf",
+      "key": "field_1okacg3",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Tunisia",
+          "value": "Tunisia"
+        },
+        {
+          "label": "Algeria",
+          "value": "Algeria"
+        },
+        {
+          "label": "France",
+          "value": "France"
+        }
+      ],
+      "label": "Country",
+      "type": "select",
+      "id": "Field_1nfhggj",
+      "key": "field_0lm6buo",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0ah5xco"
+}
