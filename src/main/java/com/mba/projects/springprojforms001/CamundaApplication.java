@@ -17,13 +17,21 @@ public class CamundaApplication {
   public static void main(String... args) {
     SpringApplication.run(CamundaApplication.class, args);
     }
+  
+  	
     
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
     	CorsConfiguration configuration = new CorsConfiguration();
     	configuration.setAllowCredentials(true);
     	configuration.addAllowedOrigin("*");
-    	configuration.addAllowedHeader("*");
+    	configuration.addAllowedHeader("authorization,"+"content-type,"
+    			+ "access-control-request-headers,"
+    			+ "access-control-request-method,"
+    			+ "accept,"
+    			+ "Origin,"
+    			+ "authorization,"
+    			+ "x-requested-with");
     	configuration.addAllowedMethod("*");
     	UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
     	source.registerCorsConfiguration("/**", configuration);
